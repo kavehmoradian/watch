@@ -1,0 +1,2372 @@
+{
+    "security": {
+        "name": "HackerOne",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "phabricator": {
+        "name": "Phabricator",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "yahoo": {
+        "name": "Yahoo!",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "rails": {
+        "name": "Ruby on Rails",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "django": {
+        "name": "Django",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "cloudflare": {
+        "name": "Cloudflare Public Bug Bounty",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mavenlink": {
+        "name": "Mavenlink",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "wordpress": {
+        "name": "WordPress",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "vimeo": {
+        "name": "Vimeo",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "linkedin": {
+        "name": "LinkedIn",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "priceline": {
+        "name": "Priceline",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "concretecms": {
+        "name": "Concrete CMS",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "twitter": {
+        "name": "Twitter",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "basecamp": {
+        "name": "Basecamp",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "slack": {
+        "name": "Slack",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "tinder": {
+        "name": "Tinder",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "coinbase": {
+        "name": "Coinbase",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "automattic": {
+        "name": "Automattic",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "att": {
+        "name": "AT&T",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "khanacademy": {
+        "name": "Khan Academy",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "irccloud": {
+        "name": "IRCCloud",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "iandunn-projects": {
+        "name": "Ian Dunn",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "stopthehacker": {
+        "name": "StopTheHacker",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "bitso": {
+        "name": "Bitso",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "glassdoor": {
+        "name": "Glassdoor",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "zendesk": {
+        "name": "Zendesk",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "urbandictionary": {
+        "name": "Urban Dictionary",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "formassembly": {
+        "name": "FormAssembly",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "harvest": {
+        "name": "Harvest",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "robinhood": {
+        "name": "Robinhood",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "gitlab": {
+        "name": "GitLab",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "expressionengine": {
+        "name": "ExpressionEngine",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "digitalsellz": {
+        "name": "DigitalSellz",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "wp-api": {
+        "name": "WP API",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "cert": {
+        "name": "CERT/CC",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "greenhouse": {
+        "name": "Greenhouse.io",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "uber": {
+        "name": "Uber",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "adobe": {
+        "name": "Adobe",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "wordpoints": {
+        "name": "WordPoints",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "glasswire": {
+        "name": "GlassWire",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "blockchain": {
+        "name": "Blockchain",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "algolia": {
+        "name": "Algolia",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "informatica": {
+        "name": "Informatica",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "snapchat": {
+        "name": "Snapchat",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "yelp": {
+        "name": "Yelp",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "dashlane": {
+        "name": "Dashlane",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "scopely": {
+        "name": "Scopely",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mobilevikings": {
+        "name": "Mobile Vikings",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "imgur": {
+        "name": "Imgur",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ui": {
+        "name": "Ubiquiti Inc.",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "pornhub": {
+        "name": "Pornhub",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "airtable": {
+        "name": "Airtable",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "airbnb": {
+        "name": "Airbnb",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "kayak": {
+        "name": "KAYAK",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "moneybird": {
+        "name": "Moneybird",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mapbox": {
+        "name": "Mapbox",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "shopify": {
+        "name": "Shopify",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ips": {
+        "name": "Invision Power Services, Inc.",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "coursera": {
+        "name": "Coursera",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "udemy": {
+        "name": "Udemy",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "legalrobot": {
+        "name": "Legal Robot",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "square-open-source": {
+        "name": "Square Open Source",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "grab": {
+        "name": "Grab",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "globaleaks": {
+        "name": "GlobaLeaks",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "goodrx": {
+        "name": "GoodRx",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "nokogiri": {
+        "name": "Nokogiri",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "torproject": {
+        "name": "Tor",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "github": {
+        "name": "GitHub",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "paypal": {
+        "name": "PayPal",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "matomo": {
+        "name": "Matomo",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "badoo": {
+        "name": "Badoo",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "trellix": {
+        "name": "Trellix",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "starbucks": {
+        "name": "Starbucks",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "spotify": {
+        "name": "Spotify",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ibm": {
+        "name": "IBM",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "rockstargames": {
+        "name": "Rockstar Games",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "libsass": {
+        "name": "LibSass",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "revive_adserver": {
+        "name": "Revive Adserver",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "radancy": {
+        "name": "Radancy",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "postmates": {
+        "name": "Postmates",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "unikrn": {
+        "name": "Unikrn",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "binary": {
+        "name": "Binary.com",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "keybase": {
+        "name": "Keybase",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "zomato": {
+        "name": "Zomato",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "wealthsimple": {
+        "name": "Wealthsimple",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "kiwi-ki": {
+        "name": "KIWI.KI GmbH",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "owncloud": {
+        "name": "ownCloud",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "versioncake": {
+        "name": "Version Cake",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "homebargains": {
+        "name": "Home Bargains",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "quora": {
+        "name": "Quora",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "codeigniter": {
+        "name": "CodeIgniter",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "equifax": {
+        "name": "Equifax",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "goldmansachs": {
+        "name": "Goldman Sachs",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "fetlife": {
+        "name": "FetLife",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "bime": {
+        "name": "Bime",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "gm": {
+        "name": "General Motors",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "wellsfargo": {
+        "name": "Wells Fargo",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "ruby": {
+        "name": "Ruby",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "monero": {
+        "name": "Monero",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "hyatt": {
+        "name": "Hyatt Hotels",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "olx": {
+        "name": "OLX",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "rubygems": {
+        "name": "RubyGems",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "localtapiola": {
+        "name": "LocalTapiola",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "paragonie": {
+        "name": "Paragon Initiative Enterprises",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "bitaccess": {
+        "name": "bitaccess",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mariadb": {
+        "name": "MariaDB",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "mainwp": {
+        "name": "MainWP",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "open-xchange": {
+        "name": "Open-Xchange",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "phpbb": {
+        "name": "phpBB",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "aspen": {
+        "name": "Aspen",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "duckduckgo": {
+        "name": "DuckDuckGo",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "deliveroo": {
+        "name": "Deliveroo",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "websummit": {
+        "name": "WebSummit",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "helium": {
+        "name": "Helium",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "drugs_com": {
+        "name": "Drugs.com",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "owox": {
+        "name": "OWOX, Inc.",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "fantasytote": {
+        "name": "FantasyTote",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "exness": {
+        "name": "EXNESS",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "pushwoosh": {
+        "name": "Pushwoosh",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "files": {
+        "name": "Files.com",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "icq": {
+        "name": "ICQ",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "nextcloud": {
+        "name": "Nextcloud",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "pyca": {
+        "name": "Python Cryptographic Authority",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "line": {
+        "name": "LINE",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "secnews": {
+        "name": "SecNews",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "acronis": {
+        "name": "Acronis",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "gocd": {
+        "name": "GoCD",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "hiro": {
+        "name": "Hiro",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "kindred_group": {
+        "name": "Kindred Group",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "localizejs": {
+        "name": "Localize",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "toyota": {
+        "name": "Toyota",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "portswigger": {
+        "name": "PortSwigger Web Security",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "plaid": {
+        "name": "Plaid",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "cornershop": {
+        "name": "Cornershop",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "shopify-scripts": {
+        "name": "shopify-scripts",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "casper": {
+        "name": "Casper",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "brave": {
+        "name": "Brave Software",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "semrush": {
+        "name": "Semrush",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "deptofdefense": {
+        "name": "U.S. Dept Of Defense",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "xiaomi": {
+        "name": "Xiaomi",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "showmax": {
+        "name": "Showmax",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "disclosure-assistance": {
+        "name": "Disclosure Assistance",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "lyst": {
+        "name": "Lyst",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "enjin": {
+        "name": "Enjin",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "alvosec": {
+        "name": "Alvosec",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "sony": {
+        "name": "Sony",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "nintendo": {
+        "name": "Nintendo",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mapsmarker_com_e_u": {
+        "name": "MapsMarker.com e.U.",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "youporn": {
+        "name": "YouPorn",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "nutanix": {
+        "name": "Nutanix",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "discourse": {
+        "name": "Discourse",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "newrelic": {
+        "name": "New Relic",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "nordsecurity": {
+        "name": "Nord Security",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "vanilla": {
+        "name": "Vanilla",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "trustpilot": {
+        "name": "Trustpilot",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "rbkmoney": {
+        "name": "RBKmoney",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "shipt": {
+        "name": "Shipt",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "homebrew": {
+        "name": "Homebrew",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "weblate": {
+        "name": "Weblate",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "roblox": {
+        "name": "Roblox",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "rocket_chat": {
+        "name": "Rocket.Chat",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "teradici": {
+        "name": "Teradici",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "johnblackbourn": {
+        "name": "JohnBlackbourn",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "stellar": {
+        "name": "Stellar.org",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "parrot_sec": {
+        "name": "Parrot Sec",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "cuvva": {
+        "name": "Cuvva",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "bitwarden": {
+        "name": "Bitwarden",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "omise": {
+        "name": "Omise",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "wink_jq3al": {
+        "name": "WINK",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "bumble": {
+        "name": "Bumble",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "infogram": {
+        "name": "Infogram",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "yoti": {
+        "name": "Yoti",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "wakatime": {
+        "name": "WakaTime",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "redtube": {
+        "name": "Redtube",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "delight_im": {
+        "name": "delight.im",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "upserve": {
+        "name": "Upserve ",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "hyperledger": {
+        "name": "Hyperledger",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "grammarly": {
+        "name": "Grammarly",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "usertesting": {
+        "name": "UserTesting",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "streak_com": {
+        "name": "Streak",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "kartpay": {
+        "name": "Kartpay",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "netlify": {
+        "name": "Netlify",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "nodejs": {
+        "name": "Node.js",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "deconf_com": {
+        "name": "Deconf",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "epicgames": {
+        "name": "Epic Games",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "valve": {
+        "name": "Valve",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "recargapay": {
+        "name": "RecargaPay",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "elastic": {
+        "name": "Elastic",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "fig": {
+        "name": "Fig",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "smule": {
+        "name": "Smule",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "lifeomic": {
+        "name": "LifeOmic",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "tube8": {
+        "name": "Tube8",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "bitmex": {
+        "name": "BitMEX",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ed": {
+        "name": "Ed",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "jamieweb": {
+        "name": "JamieWeb",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "flutteruki": {
+        "name": "Flutter UK&I",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "databricks": {
+        "name": "Databricks",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "cosmos": {
+        "name": "Cosmos",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "coalition": {
+        "name": "Coalition, Inc.",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "affirm": {
+        "name": "Affirm",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "crowdstrike": {
+        "name": "Crowdstrike",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "pingidentity": {
+        "name": "Ping Identity",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "passhash": {
+        "name": "passhash",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "iovlabs": {
+        "name": "IOVLabs",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ycombinator": {
+        "name": "Y Combinator",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "loofah": {
+        "name": "Loofah",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "ratelimited": {
+        "name": "RATELIMITED",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "poloniex": {
+        "name": "Poloniex",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "crypto": {
+        "name": "Crypto.com",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "lob": {
+        "name": "Lob",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "liberapay": {
+        "name": "Liberapay",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "zenly": {
+        "name": "Zenly",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "pixiv": {
+        "name": "pixiv",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "arkadiyt-projects": {
+        "name": "arkadiyt-projects",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "hannob": {
+        "name": "Hanno's projects",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "chaturbate": {
+        "name": "Chaturbate",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "cfptime": {
+        "name": "CFP Time",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "marriott": {
+        "name": "Marriott Bug Bounty Program",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "nisc": {
+        "name": "NISC-VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "chainlink": {
+        "name": "Chainlink",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "eslint": {
+        "name": "ESLint",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "8x8": {
+        "name": "8x8",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "logitech": {
+        "name": "Logitech",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "flickr": {
+        "name": "Flickr",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "defectdojo": {
+        "name": "DefectDojo",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "expediagroup": {
+        "name": "Expedia Group",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "creditkarma": {
+        "name": "Credit Karma",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "urbancompany": {
+        "name": "Urban Company",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "expediagroup_bbp": {
+        "name": "Expedia Group Bug Bounty",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "sweatco_ltd": {
+        "name": "Sweatco Ltd",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "fanduel": {
+        "name": "FanDuel",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "insulet_corporation": {
+        "name": "Insulet Corporation",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "etoro_bbp": {
+        "name": "eToro BBP",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mattermost": {
+        "name": "Mattermost",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "pillarproject": {
+        "name": "Pillar Project Worldwide Limited",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "central-security-project": {
+        "name": "Central Security Project",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "instacart": {
+        "name": "Instacart",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "remitano": {
+        "name": "Remitano",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "curl": {
+        "name": "curl",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "reddit": {
+        "name": "Reddit",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "magic-bbp": {
+        "name": "Magic",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ford": {
+        "name": "Ford",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "xilinx": {
+        "name": "Xilinx, now part of AMD \u2013 Vulnerability Disclosure Program",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "xilinx_bbp": {
+        "name": "Xilinx, now part of AMD \u2013 Bug Bounty Program",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "capital-one": {
+        "name": "Capital One",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "filezilla": {
+        "name": "FileZilla",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "vlc_h1c": {
+        "name": "VLC (European Commission - DIGIT)",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "putty_h1c": {
+        "name": "PuTTY (European Commission - DIGIT)",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "filezilla_h1c": {
+        "name": "FileZilla (European Commission - DIGIT)",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "apache_kafka_h1c": {
+        "name": "Apache Kafka (European Commission - DIGIT)",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "ridewithvia": {
+        "name": "Via",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "endless_group": {
+        "name": "Endless Group",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "agoric-vdp": {
+        "name": "Agoric",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "spell": {
+        "name": "Spell",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "allegro": {
+        "name": "Allegro",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "starling_bank": {
+        "name": "Starling Bank Limited",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "impresscms": {
+        "name": "ImpressCMS",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "midpoint_h1c": {
+        "name": "Midpoint (European Commission - DIGIT)",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "smartsheet": {
+        "name": "Smartsheet",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "50m-ctf": {
+        "name": "50m-ctf",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "coda_bbp": {
+        "name": "Coda",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "kubernetes": {
+        "name": "Kubernetes",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "datastax": {
+        "name": "DataStax",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "forescout_technologies": {
+        "name": "ForeScout Technologies",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "bmwgroup": {
+        "name": "BMW Group",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "consensys": {
+        "name": "Consensys",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "raivo": {
+        "name": "Raivo",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "replyify": {
+        "name": "Replyify",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "natur_com_gmbh": {
+        "name": "Natur.com GmbH",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "mailtime_technology_inc": {
+        "name": "Mailtime Technology Inc.",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "worklytics": {
+        "name": "Worklytics",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "amitree_inc": {
+        "name": "Amitree Inc",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "lark_technologies": {
+        "name": "Lark Technologies",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "solidus": {
+        "name": "Solidus",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "aodocs": {
+        "name": "AODocs",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "keybank": {
+        "name": "KeyBank",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "facebook": {
+        "name": "Facebook",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "top_echelon_software": {
+        "name": "Top Echelon Software",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "people_interactive": {
+        "name": "People Interactive",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "nuri": {
+        "name": "Nuri",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "coinspot": {
+        "name": "CoinSpot",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "panther_labs": {
+        "name": "Panther Labs",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "govtech-vdp": {
+        "name": "GovTech VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "orion_labs": {
+        "name": "Orion Labs",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "qulture_rocks": {
+        "name": "Qulture.Rocks",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "mtn_group": {
+        "name": "MTN Group",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "investnext": {
+        "name": "InvestNext",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "uphabit": {
+        "name": "UpHabit",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "palo_alto_software": {
+        "name": "Palo Alto Software",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "stripo": {
+        "name": "Stripo Inc",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "overloop": {
+        "name": "Overloop",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "jnj_mobile": {
+        "name": "JNJ Mobile",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "copper": {
+        "name": "Copper",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "engel_volkers_bbp": {
+        "name": "Engel & V\u00f6lkers Technology GmbH BBP",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "oasis_protocol_foundation": {
+        "name": "Oasis Protocol Foundation",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "thnks": {
+        "name": "Thnks",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "mobisystems_ltd": {
+        "name": "MobiSystems Ltd.",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "topcoder": {
+        "name": "Topcoder",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "gmelius": {
+        "name": "Gmelius",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "companyhub": {
+        "name": "CompanyHub",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "clario": {
+        "name": "Clario",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "exodus": {
+        "name": "Exodus",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "thomsonreuters-public": {
+        "name": "Thomson Reuters",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "hcl_software": {
+        "name": "HCL Software Inc.",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "amazonvrp": {
+        "name": "Amazon Vulnerability Research Program",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "lemlist": {
+        "name": "lemlist",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "picsart": {
+        "name": "Picsart",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "usps": {
+        "name": "USPS - United States Postal Service",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "earny": {
+        "name": "Earny",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "evernote": {
+        "name": "Evernote",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "chorus_jg4l2": {
+        "name": "Chorus",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "pubg": {
+        "name": "PUBG",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "doppler": {
+        "name": "Doppler",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "myndr": {
+        "name": "Myndr",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "playstation": {
+        "name": "PlayStation",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "rghost": {
+        "name": "RGhost",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "skale_network": {
+        "name": "SKALE Network",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "simple_poll": {
+        "name": "Simple Poll",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "aiven_ltd": {
+        "name": "Aiven Ltd",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "faraday_inc": {
+        "name": "Faraday, Inc.",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "r3": {
+        "name": "R3",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "btfs": {
+        "name": "BTFS",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "stagingdoteverydotorg": {
+        "name": "Staging.every.org",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "oppo": {
+        "name": "OPPO",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "cirrusinsight": {
+        "name": "Cirrus Insight",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "gener8": {
+        "name": "Gener8",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "vend": {
+        "name": "Vend by Lightspeed",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "flexport_vdp": {
+        "name": "Flexport VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "cedars-sinai": {
+        "name": "Cedars-Sinai",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "logsnitch": {
+        "name": "LogSnitch",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "shein": {
+        "name": "SHEIN",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "openmage": {
+        "name": "OpenMage",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "alibaba": {
+        "name": "Alibaba BBP",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ups": {
+        "name": "UPS VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "cognizant": {
+        "name": "Cognizant",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "h1-ctf": {
+        "name": "h1-ctf",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "n45ht": {
+        "name": "N45HT",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "digitalocean": {
+        "name": "DigitalOcean",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "trycourier": {
+        "name": "Courier",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "american_systems_bbp": {
+        "name": "AMERICAN SYSTEMS",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mendix": {
+        "name": "Mendix",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "cs_money": {
+        "name": "CS Money",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "watson_group": {
+        "name": "A.S. Watson Group ",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "figma": {
+        "name": "Figma",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "launchdarkly": {
+        "name": "LaunchDarkly",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "jfrog": {
+        "name": "JFrog",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "zebra_vdp": {
+        "name": "Zebra VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "blackrock": {
+        "name": "BlackRock",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "finra": {
+        "name": "FINRA Response",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "chime": {
+        "name": "Chime",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "o1-labs": {
+        "name": "O1 Labs",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "polygon-technology": {
+        "name": "Polygon Technology",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "zivver": {
+        "name": "Zivver",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "callsign": {
+        "name": "Callsign",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "rebellion-defense": {
+        "name": "Rebellion Defense",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "aig": {
+        "name": "AIG",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "dropcontact": {
+        "name": "Dropcontact",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "tiktok": {
+        "name": "TikTok",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "john-deere": {
+        "name": "John Deere",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "blockfi": {
+        "name": "BlockFi",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "zego": {
+        "name": "Zego",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "hudapp": {
+        "name": "Hud App",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "federal-reserve": {
+        "name": "Federal Reserve",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "jimdo": {
+        "name": "Jimdo GmbH",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "checkout": {
+        "name": "Checkout ",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "ohiosecretaryofstate": {
+        "name": "Ohio Secretary of State",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "nubank": {
+        "name": "Nubank",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "anywhererealestate": {
+        "name": "Anywhere Real Estate",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "trafficfactory": {
+        "name": "Traffic Factory",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "xvideos": {
+        "name": "XVIDEOS",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "gsa_vdp": {
+        "name": "U.S. General Services Administration",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "mars": {
+        "name": "Mars",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "gsa_bbp": {
+        "name": "GSA Bounty",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "hilton": {
+        "name": "Hilton",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "citrix": {
+        "name": "Citrix Systems",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "emoney-advisor": {
+        "name": "eMoney Advisor",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "gymshark": {
+        "name": "Gymshark",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "judgeme": {
+        "name": "Judge.me ",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "on": {
+        "name": "On ",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "stripe": {
+        "name": "Stripe",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "costco": {
+        "name": "Costco",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "tennessee-valley-authority": {
+        "name": "Tennessee Valley Authority",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "pfizer": {
+        "name": "Pfizer",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "payoneer": {
+        "name": "Payoneer",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "who-covid-19-mobile-app": {
+        "name": "WHO COVID-19 Mobile App",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "jetblue": {
+        "name": "JetBlue",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "glovo": {
+        "name": "Glovo",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "global-payments": {
+        "name": "Global Payments",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "aktia": {
+        "name": "Aktia",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "recorded-future": {
+        "name": "Recorded Future",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mtb": {
+        "name": "M&T Bank Vulnerability Disclosure",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "lumiradx": {
+        "name": "LumiraDx",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "linktree": {
+        "name": "Linktree",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "clubhouse": {
+        "name": "Clubhouse",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "trendyol": {
+        "name": "Trendyol",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "fastify": {
+        "name": "Fastify",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "gojek": {
+        "name": "Gojek",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "monzo": {
+        "name": "Monzo",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "mcuboot": {
+        "name": "MCUboot",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "proctorio": {
+        "name": "Proctorio",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "beiersdorf": {
+        "name": "Beiersdorf",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "smtp2go": {
+        "name": "SMTP2GO BBP",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "varonis": {
+        "name": "Varonis",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "upchieve": {
+        "name": "UPchieve",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "nominet": {
+        "name": "Nominet",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "lacework": {
+        "name": "Lacework",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "us-department-of-state": {
+        "name": "U.S. Department of State",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "myetherwallet": {
+        "name": "MyEtherWallet",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "krisp": {
+        "name": "Krisp",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "planetart": {
+        "name": "PlanetArt",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "tesco": {
+        "name": "Tesco",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "keurigdrpepper": {
+        "name": "Keurig Dr Pepper",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "epam-bbp": {
+        "name": "EPAM Bounty",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "octopus-energy": {
+        "name": "Octopus Energy Group",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "cardano-foundation": {
+        "name": "Cardano Foundation",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "hy-vee": {
+        "name": "Hy-Vee",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "sega": {
+        "name": "SEGA",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "tenable": {
+        "name": "Tenable",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "planet-labs": {
+        "name": "Planet Labs",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "snowplow": {
+        "name": "Snowplow",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "oanda": {
+        "name": "OANDA",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "gemini_trust_co_vdp": {
+        "name": "Gemini VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "razorpay": {
+        "name": "Razorpay",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ibb": {
+        "name": "Internet Bug Bounty",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "caterpillar": {
+        "name": "Caterpillar",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "blend-labs": {
+        "name": "Blend Labs",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "redis-vdp": {
+        "name": "Redis ",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "opensea": {
+        "name": "OpenSea",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "veeam": {
+        "name": "Veeam",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "auvik": {
+        "name": "Auvik",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "godaddy-vdp": {
+        "name": "GoDaddy VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "circle": {
+        "name": "Circle",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "inmobi": {
+        "name": "InMobi",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "disney": {
+        "name": "The Walt Disney Company",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "divvy-homes": {
+        "name": "Divvy Homes",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "palantir_public": {
+        "name": "Palantir Public",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "mondelez": {
+        "name": "Mondel\u0113z International",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "amazonvrp-devices": {
+        "name": "Amazon Vulnerability Research Program - Devices",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "automation-anywhere": {
+        "name": "Automation Anywhere",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "securityscorecard": {
+        "name": "SecurityScorecard",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "fossil": {
+        "name": "Fossil",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "agoric": {
+        "name": "Agoric",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "wickr": {
+        "name": "Wickr",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "allegion": {
+        "name": "Allegion",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "ziff-davis": {
+        "name": "Ziff Davis",
+        "submission_state": "paused",
+        "offers_bounties": false
+    },
+    "strongdm": {
+        "name": "StrongDM",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "sidefx": {
+        "name": "SideFX",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "kraden": {
+        "name": "Kraden",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "windstream": {
+        "name": "Windstream",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "mount-sinai-health": {
+        "name": "Mount Sinai Health",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "mongodb": {
+        "name": "MongoDB",
+        "submission_state": "paused",
+        "offers_bounties": true
+    },
+    "sorare": {
+        "name": "Sorare",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "alohi": {
+        "name": "Alohi",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "fidelity": {
+        "name": "Fidelity",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "amber-ai": {
+        "name": "AMBER AI",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "ro": {
+        "name": "Ro",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "deribit": {
+        "name": "Deribit",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "gamestop": {
+        "name": "GameStop",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "metamask": {
+        "name": "MetaMask",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "shoplazza": {
+        "name": "SHOPLAZZA",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "teleport": {
+        "name": "Teleport",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "pogo": {
+        "name": "Pogo",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "monarch_money": {
+        "name": "Monarch Money",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "avalara": {
+        "name": "Avalara",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "resmed": {
+        "name": "ResMed",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "yuga_labs": {
+        "name": "Yuga Labs",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "rivian_automotive": {
+        "name": "Rivian Automotive",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "abercrombie_fitch": {
+        "name": "Abercrombie & Fitch Management Co.",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "tokenweb3": {
+        "name": "token.com",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "zerobounce": {
+        "name": "ZeroBounce",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "alsco": {
+        "name": "ALSCO",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
+    "intuit_rdp": {
+        "name": "Intuit",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "one_zero_vdp": {
+        "name": "ONE ZERO VDP",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "magic-eden": {
+        "name": "Magic Eden",
+        "submission_state": "open",
+        "offers_bounties": true
+    }
+}

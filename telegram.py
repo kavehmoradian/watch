@@ -1,6 +1,7 @@
 from requests import get
 from dotenv import dotenv_values
 from subscribers import subscribers
+from time import sleep
 
 class Telegram():
 
@@ -19,10 +20,10 @@ class Telegram():
 		params = f'?chat_id={target}&text={message}'
 		path = '/sendMessage'
 		url = self.baseUrl + path + params
-		try:
-			get(url, proxies=proxies)
-		except:
-			pass
+		res = get(url, proxies=proxies)
+		if res.status_code == 429:
+			sleep(61)
+			res = get(url, proxies=proxies)
 
 	def is_up(self):
 		self.send_message(subscribers['watch1'], "Main Script: I'm up :)")

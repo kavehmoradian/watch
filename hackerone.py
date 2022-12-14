@@ -1,9 +1,9 @@
 from requests import get
 from dotenv import dotenv_values
-from dbhelper import DbHelper
 from telegram import Telegram
 from subscribers import subscribers
-from json import dumps
+from json import dumps, loads
+from jsondiff import diff
 
 proxies = {
             'http': 'socks5://127.0.0.1:9090',
@@ -14,72 +14,100 @@ headers = {
 }
 TOKEN = dotenv_values('.env')['HACKERONE_API_KEY']
 USERNAME = dotenv_values('.env')['HACKERONE_USERNAME']
-db = DbHelper('hackerone.db')
 tg = Telegram()
 programs_target = subscribers['watch2']
+detail_target = subscribers['watch3']
+
+def read_json_file(file):
+	with open(file, 'r') as f:
+		return loads(f.read())
+
+def write_json_file(file, data):
+	with open(file, 'w') as f:
+		d = dumps(data, indent=4)
+		f.write(d)
 
 
-def send_program_diff(prev, now):
-	prev_d = {}
-	prev_d['id'] = prev[0]
-	prev_d['type'] = prev[1]
-	prev_d['handle'] = prev[2]
-	prev_d['name'] = prev[3]
-	prev_d['submission_state'] = prev[4]
-	prev_d['state'] = prev[5]
-	prev_d['offers_bounties'] = prev[6]
-	handle = now['handle']
-	message = 'a program had been edited:\nform: \n'
-	message += dumps(prev_d, indent=4) + '\nto: \n'
+def send_program_diff(prev, now, handle):
+	message = handle + ' had been edited:\nForm: \n'
+	message += dumps(prev, indent=4) + '\nTo: \n'
 	message += dumps(now, indent=4)
 	message += f'\nmore detail: https://hackerone.com/{handle}?type=team'
 	tg.send_message(programs_target, message)
+
+def parse_programs(programs):
+	res = {}
+	for program in programs:
+		handle = program['attributes']['handle']
+		data = {'name': program['attributes']['name'], 
+					'submission_state': program['attributes']['submission_state'],
+					'offers_bounties': program['attributes']['offers_bounties']}
+		res[handle] = data
+	return res
 
 def fetch_programs():
 	url = "https://api.hackerone.com/v1/hackers/programs?page[size]=100&page[number]=1"
 	programs = []
 	while url:
-		reslut = get(url, auth=(USERNAME , TOKEN), headers = headers, proxies=proxies)
-		programs += reslut.json()['data']
-		url = reslut.json()['links'].get('next', False)
-		break
-	return programs
+		result = get(url, auth=(USERNAME , TOKEN), headers = headers, proxies=proxies)
+		programs += result.json()['data']
+		url = result.json()['links'].get('next', False)
+	return parse_programs(programs)
 
-def add_programs(programs):
-	for program in programs:
-		data = {}
-		data['id'] = int(program['id'])
-		data['type'] = program['type']
-		data['handle'] = program['attributes']['handle']
-		data['name'] = program['attributes']['name']
-		data['submission_state'] = program['attributes']['submission_state']
-		data['state'] = program['attributes']['state']
-		data['offers_bounties'] = str(program['attributes']['offers_bounties'])
-		if db.check_program_exists(data['id']):
-			prev = db.program_data(data['id'])
-			if tuple(data.values()) == prev:
+def check_programs(programs):
+	prev={}
+	try:
+		prev = read_json_file('hackerone_pr.json')
+	except:
+		pass
+	for handle, data in programs.items():
+		obj = prev.get(handle, False)
+		if obj:
+			if str(obj) == str(data):
 				continue
 			else:
-				send_program_diff(prev, data)
-				db.update_program(data)
+				send_program_diff(obj, data, handle)
 		else:
-			db.add_program(data)
-			handle = data['handle']
 			message = 'new program just added to hackerone:\n'
 			message += dumps(data, indent=4)
 			message += f'\n check here: https://hackerone.com/{handle}?type=team'
 			tg.send_message(programs_target, message)
-		db.commit()
-		return
+	write_json_file('hackerone_pr.json', programs)
+
+# def get_details():
+# 	handles = db.get_handles()
+# 	for i in handles:
+# 		handle = i[0]
+# 		url = 'https://api.hackerone.com/v1/hackers/programs/' + handles[0][0]
+# 		res = get(url, auth=(USERNAME , TOKEN), headers = headers, proxies=proxies)
+# 		d = res.json()
+# 		data = {}
+# 		data['id'] = str(d['id'])
+# 		data['handle'] = d['attributes']['handle']
+# 		data['data'] = d['relationships']['structured_scopes']['data']
+# 		if db.check_detail_exists(d['id']):
+# 			prev = db.get_detail(data['id'])
+# 			print(prev[2])
+# 			print(data['data'])
+# 			if str(data['data'])==str(prev[2]):
+# 				continue
+# 				print("same")
+# 			else:
+# 				db.update_detail(data)
+
+# 		else:
+# 			db.add_detail(data)
+# 			handle = data['handle']
+# 			message = 'new program just added to hackerone.\n details:\n'
+# 			message += dumps(data, indent=2)
+# 			message += f'\n check here: https://hackerone.com/{handle}?type=team'
+# 			tg.send_message(detail_target, message)
+# 		db.commit()
+# 		return
 
 
-# TOKEN="Dj3hOarlVe0W1am5krVrA3tCtz/4X58UCVO80PKqtDA="
-# USERNAME="kaveh4me"
-#url = "https://api.hackerone.com/v1/hackers/programs/hyatt"
-#600 req per min
-
-add_programs(fetch_programs())
-
-
+#get_details()
+#add_programs(fetch_programs())
+check_programs(fetch_programs())
 
 
