@@ -1561,7 +1561,7 @@
     },
     "doppler": {
         "name": "Doppler",
-        "submission_state": "open",
+        "submission_state": "paused",
         "offers_bounties": false
     },
     "myndr": {
@@ -1884,6 +1884,11 @@
         "submission_state": "open",
         "offers_bounties": false
     },
+    "doppler-bbp": {
+        "name": "Doppler BBP",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
     "judgeme": {
         "name": "Judge.me ",
         "submission_state": "open",
@@ -2139,6 +2144,11 @@
         "submission_state": "open",
         "offers_bounties": true
     },
+    "moonpay": {
+        "name": "MoonPay ",
+        "submission_state": "open",
+        "offers_bounties": true
+    },
     "veeam": {
         "name": "Veeam",
         "submission_state": "open",
@@ -2311,6 +2321,11 @@
     },
     "monarch_money": {
         "name": "Monarch Money",
+        "submission_state": "open",
+        "offers_bounties": false
+    },
+    "deliveryhero": {
+        "name": "Delivery Hero",
         "submission_state": "open",
         "offers_bounties": false
     },

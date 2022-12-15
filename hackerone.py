@@ -45,6 +45,24 @@ def parse_programs(programs):
 		res[handle] = data
 	return res
 
+def parse_detail(program, handle):
+	res = {handle: []}
+	scopes = program['relationships']['structured_scopes']['data']
+	for scope in scopes:
+		t = {}
+		try:
+			t['id'] = scope['id']
+			t['asset_type'] = scope['attributes']['asset_type']
+			t['asset_identifier'] = scope['attributes']['asset_identifier']
+			t['eligible_for_bounty'] = scope['attributes']['eligible_for_bounty']
+			t['eligible_for_submission'] = scope['attributes']['eligible_for_submission']
+			t['instruction'] = scope['attributes']['instruction']
+			t['max_severity'] = scope['attributes']['max_severity']
+			res[handle].append(t)
+		except:
+			res[handle].append(scope)
+	return res
+
 def fetch_programs():
 	url = "https://api.hackerone.com/v1/hackers/programs?page[size]=100&page[number]=1"
 	programs = []
@@ -74,40 +92,45 @@ def check_programs(programs):
 			tg.send_message(programs_target, message)
 	write_json_file('hackerone_pr.json', programs)
 
-# def get_details():
-# 	handles = db.get_handles()
-# 	for i in handles:
-# 		handle = i[0]
-# 		url = 'https://api.hackerone.com/v1/hackers/programs/' + handles[0][0]
-# 		res = get(url, auth=(USERNAME , TOKEN), headers = headers, proxies=proxies)
-# 		d = res.json()
-# 		data = {}
-# 		data['id'] = str(d['id'])
-# 		data['handle'] = d['attributes']['handle']
-# 		data['data'] = d['relationships']['structured_scopes']['data']
-# 		if db.check_detail_exists(d['id']):
-# 			prev = db.get_detail(data['id'])
-# 			print(prev[2])
-# 			print(data['data'])
-# 			if str(data['data'])==str(prev[2]):
-# 				continue
-# 				print("same")
-# 			else:
-# 				db.update_detail(data)
+def get_details():
+	prev={}
+	try:
+		prev = read_json_file('hackerone_details.json')
+	except:
+		pass
+	handles = read_json_file('hackerone_pr.json').keys()
+	for handle in handles:
+		url = 'https://api.hackerone.com/v1/hackers/programs/' + handle
+		res = get(url, auth=(USERNAME , TOKEN), headers = headers, proxies=proxies)
+		if res.status_code==200:
+			print(handle)
+			detail = parse_detail(res.json(), handle)
+			pd = prev.get(handle, False)
+			if pd:
+				if str(pd) == str(detail[handle]):
+					continue
+				else:
+					for i in detail[handle]:
+						if i not in pd:
+							flag = False
+							for j in pd:
+								if j['id'] == i['id']:
+									message = f'something had been changed in {handle}:\n From:\n'
+									message += dumps(j, indent=4)
+									message += '\n To:\n'
+									message += dumps(i, indent=4)
+									message += f'\n check here: https://hackerone.com/{handle}?type=team'
+									tg.send_message(detail_target, message)
+									flag = True
+							if flag == False:
+								message = f'assets added to {handle}:\n'
+								message += dumps(i, indent=4)
+								message += f'\n check here: https://hackerone.com/{handle}?type=team'
+								tg.send_message(detail_target, message)		
+			prev[handle] = detail[handle]
+	write_json_file('hackerone_details.json', prev)
 
-# 		else:
-# 			db.add_detail(data)
-# 			handle = data['handle']
-# 			message = 'new program just added to hackerone.\n details:\n'
-# 			message += dumps(data, indent=2)
-# 			message += f'\n check here: https://hackerone.com/{handle}?type=team'
-# 			tg.send_message(detail_target, message)
-# 		db.commit()
-# 		return
 
-
-#get_details()
-#add_programs(fetch_programs())
 check_programs(fetch_programs())
-
+get_details()
 

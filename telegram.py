@@ -13,10 +13,9 @@ class Telegram():
 	def send_message(self, target, message):
 		#debug only:
 		proxies = {
-            'http': 'socks5://127.0.0.1:9090',
-            'https': 'socks5h://127.0.0.1:9090'
-          }
-
+			'http': 'socks5://127.0.0.1:9090',
+			'https': 'socks5h://127.0.0.1:9090'
+		}
 		params = f'?chat_id={target}&text={message}'
 		path = '/sendMessage'
 		url = self.baseUrl + path + params
